@@ -1,0 +1,32 @@
+{
+  "vault": {
+    "title": "The CX Tech Vault",
+    "subtitle": "Production Code, Software Modules & Modern Web Components",
+    "description": "A curated repository of battle-tested software architectures, responsive web interaction modules, and AI/ML pipelines built by CX Technology in Rajkot, Gujarat.",
+    "stats": {
+      "components": "250+",
+      "weeklyUpdates": "Weekly releases",
+      "rating": "5.0 ★★★★★"
+    }
+  },
+  "course": {
+    "title": "Modern Web Architecture & Transition Masterclass",
+    "subtitle": "Master High-Performance Web Development, Barba.js & GSAP",
+    "description": "Learn modern website development techniques, fluid client-side page transitions, and responsive micro-interactions crafted by the CX Technology engineering team.",
+    "instructor": "CX Technology",
+    "duration": "6+ hours of deep-dive video lessons",
+    "level": "All Levels"
+  },
+  "buttonPack": {
+    "title": "CX Interaction & Button Pack",
+    "subtitle": "100+ Production UI & Micro-Interaction Controls",
+    "description": "A comprehensive library of customizable magnetic, 3D, physics-based, and fluid buttons engineered for modern website and software applications.",
+    "count": 100
+  },
+  "community": {
+    "title": "CX Developer Community",
+    "subtitle": "Network of Software, Web & AI Developers",
+    "description": "Connect with talented developers, software engineers, and AI builders collaborating with CX Technology. Reach out directly at cx@gmail.com.",
+    "members": "4,500+"
+  }
+}

@@ -1,0 +1,6 @@
+<svg data-cx-uid="cx-4" xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 187 187" fill="none" class="nav-logo__icon-svg">
+  <rect width="187" height="187" rx="36" fill="currentColor" fill-opacity="0.08"/>
+  <path d="M70 145C42.4 145 20 122.6 20 93.5C20 64.4 42.4 42 70 42C87.8 42 103.4 51.3 112.1 65.5L95.5 75.8C90.2 67.2 80.8 61.5 70 61.5C52.3 61.5 38 75.8 38 93.5C38 111.2 52.3 125.5 70 125.5C80.8 125.5 90.2 119.8 95.5 111.2L112.1 121.5C103.4 135.7 87.8 145 70 145Z" fill="currentColor"/>
+  <path d="M106 46H128L148 83L168 46H190L160 95L190 144H168L148 107L128 144H106L136 95L106 46Z" fill="var(--color-cx-primary, #E0A16C)"/>
+  <circle cx="93.5" cy="93.5" r="7" fill="var(--color-golden-straw, #EFDDB7)"/>
+</svg>

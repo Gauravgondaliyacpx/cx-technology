@@ -1,0 +1,206 @@
+[
+  {
+    "id": "aegis-cloud-core",
+    "title": "Aegis Cloud Core",
+    "client": "Aegis Financial Systems",
+    "category": "Software Development",
+    "serviceId": "software-development",
+    "year": "2026",
+    "summary": "High-concurrency distributed banking core handling 45,000+ transactions per second with sub-5ms latency and zero downtime.",
+    "tags": [
+      "Go",
+      "Distributed Systems",
+      "Kafka",
+      "PostgreSQL"
+    ],
+    "image": "/assets/images/showcase/project-aegis-cloud.avif",
+    "featured": true
+  },
+  {
+    "id": "synthetix-ai-rag",
+    "title": "Synthetix AI Multi-Modal RAG",
+    "client": "Synthetix Intelligence",
+    "category": "AI Development",
+    "serviceId": "ai-development",
+    "year": "2026",
+    "summary": "Enterprise multi-modal retrieval engine processing 10M+ technical schematics and documents with hybrid vector search.",
+    "tags": [
+      "PyTorch",
+      "Vector Search",
+      "LLMs",
+      "FastAPI"
+    ],
+    "image": "/assets/images/showcase/project-synthetix-ai.avif",
+    "featured": true
+  },
+  {
+    "id": "veloce-studio-platform",
+    "title": "Veloce Interactive Studio",
+    "client": "Veloce Automotive",
+    "category": "Web Development",
+    "serviceId": "web-development",
+    "year": "2026",
+    "summary": "Ultra-responsive 3D configurator and web platform featuring Barba.js transitions, GSAP inertia scrolling, and WebGL rendering.",
+    "tags": [
+      "Eleventy",
+      "GSAP 3",
+      "Barba.js",
+      "Three.js"
+    ],
+    "image": "/assets/images/showcase/project-veloce-web.avif",
+    "featured": true
+  },
+  {
+    "id": "novamesh-devops-mesh",
+    "title": "NovaMesh Cloud Infrastructure",
+    "client": "NovaMesh Global",
+    "category": "IT Services",
+    "serviceId": "it-services",
+    "year": "2026",
+    "summary": "Zero-trust Kubernetes multi-cloud deployment with automated Terraform provisioning, self-healing nodes, and 99.999% SLA.",
+    "tags": [
+      "Kubernetes",
+      "Terraform",
+      "AWS & GCP",
+      "Zero-Trust"
+    ],
+    "image": "/assets/images/showcase/project-novamesh-devops.avif",
+    "featured": true
+  },
+  {
+    "id": "quantedge-streaming-pipeline",
+    "title": "QuantEdge Real-Time Pipeline",
+    "client": "QuantEdge Capital",
+    "category": "Software Development",
+    "serviceId": "software-development",
+    "year": "2025",
+    "summary": "Ultra-low-latency financial market data engine streaming 250,000 ticks/second with Redis caching and WebSockets.",
+    "tags": [
+      "Node.js",
+      "WebSockets",
+      "Redis Cluster",
+      "ClickHouse"
+    ],
+    "image": "/assets/images/showcase/project-quantedge.avif",
+    "featured": false
+  },
+  {
+    "id": "neuraldesk-copilot",
+    "title": "NeuralDesk Support Copilot",
+    "client": "NeuralDesk Labs",
+    "category": "AI Development",
+    "serviceId": "ai-development",
+    "year": "2025",
+    "summary": "Autonomous AI customer support copilot achieving 78% first-touch resolution across technical helpdesk workflows.",
+    "tags": [
+      "AI Agents",
+      "LangChain",
+      "Vector Embeddings",
+      "Python"
+    ],
+    "image": "/assets/images/showcase/project-neuraldesk.avif",
+    "featured": false
+  },
+  {
+    "id": "aura-headless-commerce",
+    "title": "Aura Luxury Commerce",
+    "client": "Aura Group",
+    "category": "Web Development",
+    "serviceId": "web-development",
+    "year": "2025",
+    "summary": "Headless e-commerce platform with instant page transitions, dynamic cart drawer, and 99+ mobile performance score.",
+    "tags": [
+      "Next.js",
+      "Headless CMS",
+      "GSAP",
+      "Shopify Storefront"
+    ],
+    "image": "/assets/images/showcase/project-aura-arch.avif",
+    "featured": false
+  },
+  {
+    "id": "shieldops-security-mesh",
+    "title": "ShieldOps 24/7 Security SLA",
+    "client": "ShieldOps Defense",
+    "category": "IT Services",
+    "serviceId": "it-services",
+    "year": "2025",
+    "summary": "Automated vulnerability scanner, SOC2 continuous compliance pipeline, and managed 24/7 DevOps reliability engineering.",
+    "tags": [
+      "Cybersecurity",
+      "CI/CD",
+      "Prometheus",
+      "Azure DevOps"
+    ],
+    "image": "/assets/images/showcase/project-shieldops.avif",
+    "featured": false
+  },
+  {
+    "id": "hyperflux-data-engine",
+    "title": "HyperFlux Analytics Cloud",
+    "client": "HyperFlux Data",
+    "category": "Software Development",
+    "serviceId": "software-development",
+    "year": "2025",
+    "summary": "Distributed query accelerator processing 15 TB of daily analytics logs with columnar storage and sub-second dashboards.",
+    "tags": [
+      "Go",
+      "DuckDB",
+      "Microservices",
+      "Docker"
+    ],
+    "image": "/assets/images/showcase/project-hyperflux.avif",
+    "featured": false
+  },
+  {
+    "id": "prism-vision-ai",
+    "title": "Prism Quality Inspection AI",
+    "client": "Prism Optics",
+    "category": "AI Development",
+    "serviceId": "ai-development",
+    "year": "2025",
+    "summary": "Real-time edge computer vision model detecting microscopic manufacturing defects at 120 frames per second on assembly lines.",
+    "tags": [
+      "Computer Vision",
+      "TensorRT",
+      "Edge AI",
+      "PyTorch"
+    ],
+    "image": "/assets/images/showcase/project-prism-vision.avif",
+    "featured": false
+  },
+  {
+    "id": "corepulse-telemetry",
+    "title": "CorePulse Global Telemetry",
+    "client": "CorePulse Systems",
+    "category": "IT Services",
+    "serviceId": "it-services",
+    "year": "2025",
+    "summary": "Worldwide IoT telemetry aggregation network monitoring 1.2M hardware sensors with distributed time-series indexing.",
+    "tags": [
+      "Grafana",
+      "TimescaleDB",
+      "Kubernetes",
+      "MQTT"
+    ],
+    "image": "/assets/images/showcase/project-corepulse.avif",
+    "featured": false
+  },
+  {
+    "id": "omnichain-bridge-ui",
+    "title": "OmniChain Protocol Hub",
+    "client": "OmniChain Labs",
+    "category": "Web Development",
+    "serviceId": "web-development",
+    "year": "2025",
+    "summary": "High-security decentralized finance portal with cryptographic signing, instant wallet state syncing, and fluid reactive UI.",
+    "tags": [
+      "Web3",
+      "GSAP 3",
+      "Tailwind",
+      "TypeScript"
+    ],
+    "image": "/assets/images/showcase/project-omnichain.avif",
+    "featured": false
+  }
+]

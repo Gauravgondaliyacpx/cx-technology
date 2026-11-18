@@ -1,0 +1,90 @@
+[
+  {
+    "id": "distributed-cache-layer",
+    "title": "Distributed Cache & Locking Layer",
+    "category": "Software Development",
+    "date": "October 28, 2026",
+    "daysAgo": "2 days ago",
+    "isNew": true,
+    "image": "/assets/images/resources/res-list-grid.avif",
+    "video": "/assets/videos/software-architecture.mp4",
+    "description": "Production Redis clustering and distributed mutex locking pattern with auto-eviction and telemetry hooks."
+  },
+  {
+    "id": "barba-page-transition-controller",
+    "title": "Fluid Barba Page Transition Engine",
+    "category": "Web Development",
+    "date": "October 26, 2026",
+    "daysAgo": "4 days ago",
+    "isNew": true,
+    "image": "/assets/images/resources/res-transition.avif",
+    "video": "/assets/videos/web-transitions.mp4",
+    "description": "Multi-container page wipe controller with hardware-accelerated canvas overlays and Lenis scroll restoration."
+  },
+  {
+    "id": "llm-stream-typewriter",
+    "title": "LLM Token Stream Typewriter",
+    "category": "AI Development",
+    "date": "October 24, 2026",
+    "daysAgo": "6 days ago",
+    "isNew": false,
+    "image": "/assets/images/resources/res-typewriter.avif",
+    "video": "/assets/videos/ai-development.mp4",
+    "description": "Ultra-smooth character easing controller for streaming AI outputs with Markdown and KaTeX math parsing."
+  },
+  {
+    "id": "k8s-autoscale-blueprint",
+    "title": "Kubernetes Auto-Scaler Blueprint",
+    "category": "IT Services",
+    "date": "October 20, 2026",
+    "daysAgo": "10 days ago",
+    "isNew": false,
+    "image": "/assets/images/resources/res-scroll-reveal.avif",
+    "video": "/assets/videos/cloud-infrastructure.mp4",
+    "description": "Production Terraform module for Horizontal Pod Auto-scaling based on custom Prometheus latency metrics."
+  },
+  {
+    "id": "3d-perspective-carousel",
+    "title": "3D Perspective Tiles Carousel",
+    "category": "Web Development",
+    "date": "October 16, 2026",
+    "daysAgo": "14 days ago",
+    "isNew": false,
+    "image": "/assets/images/resources/res-3d-tiles.avif",
+    "video": "/assets/videos/interactive-ui.mp4",
+    "description": "Infinite loop CSS 3D transform cards with GSAP Draggable inertia physics and reactive mouse velocity."
+  },
+  {
+    "id": "interactive-line-graph-svg",
+    "title": "Interactive SVG Line Graph Engine",
+    "category": "Software Development",
+    "date": "October 12, 2026",
+    "daysAgo": "18 days ago",
+    "isNew": false,
+    "image": "/assets/images/resources/res-line-graph.avif",
+    "video": "/assets/videos/data-pipeline.mp4",
+    "description": "Vector charting component with bezier cubic spline smoothing, tooltip hotspot snapping, and reactive data updates."
+  },
+  {
+    "id": "bouncy-content-tabs",
+    "title": "Bouncy Spring Content Tabs",
+    "category": "Web Development",
+    "date": "October 8, 2026",
+    "daysAgo": "22 days ago",
+    "isNew": false,
+    "image": "/assets/images/resources/res-tabs.avif",
+    "video": "/assets/videos/button-preview.mp4",
+    "description": "Elastic tab selector with fluid indicator morphing, keyboard accessibility, and state persistence."
+  },
+  {
+    "id": "stacked-drawer-navigation",
+    "title": "Stacked Drawer Navigation Bar",
+    "category": "Web Development",
+    "date": "October 4, 2026",
+    "daysAgo": "26 days ago",
+    "isNew": false,
+    "image": "/assets/images/resources/res-drawer-nav.avif",
+    "video": "/assets/videos/course-trailer.mp4",
+    "description": "Multi-layered navigation modal with bar indicator, sub-drawer accordions, and background blur backdrop."
+  }
+]

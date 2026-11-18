@@ -1,0 +1,105 @@
+{
+  "tiers": [
+    {
+      "id": "starter-development",
+      "name": "Website & Web Dev",
+      "popular": false,
+      "description": "Ideal for businesses looking for custom, ultra-fast, modern responsive website development and UI/UX design.",
+      "pricing": {
+        "quarterly": {
+          "price": 490,
+          "period": "project",
+          "billed": "Starting per project"
+        },
+        "annually": {
+          "price": 1490,
+          "period": "annually",
+          "billed": "Full annual web package"
+        }
+      },
+      "ctaText": "Start Web Project",
+      "theme": "cx-sage",
+      "features": [
+        "Custom responsive website design & frontend development",
+        "Interactive UI/UX animations & smooth page transitions",
+        "SEO optimization, Google Analytics & Core Web Vitals 100/100",
+        "Content Management System (CMS) integration",
+        "Direct email support via cx@gmail.com"
+      ]
+    },
+    {
+      "id": "custom-software",
+      "name": "Software & AI Solutions",
+      "popular": true,
+      "description": "For growing companies requiring custom software engineering, scalable backend SaaS, or dedicated AI / ML model development.",
+      "pricing": {
+        "quarterly": {
+          "price": 890,
+          "period": "quarterly",
+          "billed": "Billed quarterly"
+        },
+        "annually": {
+          "price": 2690,
+          "period": "annually",
+          "billed": "Billed annually"
+        }
+      },
+      "ctaText": "Build With Us",
+      "theme": "cx-pumpkin",
+      "features": [
+        "Custom enterprise software & cloud SaaS development",
+        "Applied Machine Learning (ML) & Generative AI model integrations",
+        "High-performance REST & GraphQL APIs and microservices",
+        "Database design, cloud deployment & automated CI/CD",
+        "Comprehensive code documentation & Rajkot based engineering support",
+        "Direct consultation & weekly sprint progress reviews"
+      ]
+    },
+    {
+      "id": "enterprise-fullstack",
+      "name": "Enterprise Dedicated Team",
+      "popular": false,
+      "description": "Complete technology partnership: dedicated full-stack software engineers, website developers, and AI/ML experts.",
+      "pricing": {
+        "quarterly": {
+          "price": 4900,
+          "period": "monthly",
+          "billed": "Dedicated team retainer"
+        },
+        "annually": {
+          "price": 49000,
+          "period": "annually",
+          "billed": "Annual enterprise contract"
+        }
+      },
+      "ctaText": "Contact CX Technology",
+      "theme": "cx-sage",
+      "features": [
+        "Dedicated team of senior software, web & AI/ML developers",
+        "End-to-end custom software architecture & development",
+        "Custom proprietary AI/ML pipelines & LLM fine-tuning",
+        "Full IP ownership, NDA compliance & source code handover",
+        "24/7 dedicated support & SLA guarantee",
+        "On-site / remote collaboration from Rajkot, Gujarat headquarters"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Where is CX Technology based and how can we contact you?",
+      "answer": "CX Technology is based in Rajkot, Gujarat, India. You can reach our team directly at cx@gmail.com for any inquiries regarding website development, software engineering, or AI/ML solutions."
+    },
+    {
+      "question": "What core development services does CX Technology provide?",
+      "answer": "CX Technology provides three primary specialized services: 1) Website Development (custom responsive websites, web applications, UI/UX animations), 2) Custom Software Development (enterprise SaaS, microservices, secure backend systems, APIs), and 3) AI & Machine Learning Development (custom ML algorithms, predictive analytics, NLP, generative AI, and automation pipelines)."
+    },
+    {
+      "question": "How do we get started on a project with CX Technology?",
+      "answer": "Simply contact us by emailing cx@gmail.com or choosing a development plan on our website. Our technical team in Rajkot, Gujarat will review your requirements, schedule an introductory scoping session, and provide a detailed roadmap and estimate."
+    },
+    {
+      "question": "Do you offer post-launch maintenance and technical support?",
+      "answer": "Yes, all our website, software, and AI/ML development deliverables come with full warranty, technical documentation, ongoing maintenance, and direct support from our Rajkot-based engineering team."
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+[
+  {
+    "id": "web-development",
+    "name": "Website Development",
+    "shortDescription": "High-performance websites, responsive web apps, interactive UI/UX, and modern frontend architectures.",
+    "detailedDescription": "CX Technology crafts world-class web experiences for businesses worldwide from Rajkot, Gujarat. We engineer blazing-fast, SEO-optimized, ultra-responsive websites with fluid micro-interactions, headless CMS integrations, modern Jamstack architectures, and custom full-stack web platforms built to scale.",
+    "features": [
+      "Custom Responsive Website Design & Development",
+      "Full-Stack Web Applications (React, Next.js, Node.js)",
+      "Interactive UI/UX & Fluid Animations (GSAP, Three.js)",
+      "High-Converting E-Commerce & Headless CMS Platforms",
+      "Core Web Vitals & 100/100 Lighthouse Performance"
+    ],
+    "techStack": [
+      "React",
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Node.js",
+      "Eleventy (11ty)",
+      "GSAP",
+      "WebGL"
+    ],
+    "video": "/assets/videos/web-transitions.mp4",
+    "theme": "cx-sage"
+  },
+  {
+    "id": "software-development",
+    "name": "Software Development",
+    "shortDescription": "Scalable enterprise software, custom SaaS systems, microservices, and robust cloud backend architectures.",
+    "detailedDescription": "Engineered with precision by CX Technology in Rajkot, Gujarat. We build robust, scalable, and secure software applications tailored to your business operations. From custom enterprise ERPs and CRM platforms to high-concurrency microservices and REST/GraphQL APIs, our solutions are built for high reliability and flawless execution.",
+    "features": [
+      "Custom Enterprise Software & Scalable SaaS Platforms",
+      "Distributed Microservices & Event-Driven Architectures",
+      "High-Throughput RESTful & GraphQL API Development",
+      "Database Design, Sharding, Optimization & Data Security",
+      "Cross-Platform Desktop & Cloud-Native Software"
+    ],
+    "techStack": [
+      "Python",
+      "Node.js",
+      "Go",
+      "Java",
+      "PostgreSQL",
+      "MongoDB",
+      "Redis",
+      "Docker"
+    ],
+    "video": "/assets/videos/software-architecture.mp4",
+    "theme": "cx-pumpkin"
+  },
+  {
+    "id": "ai-development",
+    "name": "AI / ML Development",
+    "shortDescription": "Custom AI models, machine learning algorithms, LLM integrations, NLP, and intelligent business automation.",
+    "detailedDescription": "Transforming business potential into automated intelligence. CX Technology designs custom Machine Learning models, natural language processing (NLP) pipelines, computer vision systems, predictive analytics, and enterprise generative AI solutions engineered for precision, speed, and business impact.",
+    "features": [
+      "Custom Machine Learning (ML) Models & Predictive Analytics",
+      "Generative AI, Custom LLMs & Multi-Agent Pipelines",
+      "Natural Language Processing (NLP) & Intelligent Chatbots",
+      "Computer Vision, Object Detection & Image Processing",
+      "AI Pipeline Integration, Fine-Tuning & Model Deployment"
+    ],
+    "techStack": [
+      "Python",
+      "PyTorch",
+      "TensorFlow",
+      "FastAPI",
+      "Hugging Face",
+      "LangChain",
+      "Scikit-Learn",
+      "OpenCV"
+    ],
+    "video": "/assets/videos/ai-development.mp4",
+    "theme": "cx-pumpkin"
+  },
+  {
+    "id": "it-services",
+    "name": "IT Solutions & Cloud Services",
+    "shortDescription": "24/7 cloud management, DevOps automation, continuous integration, and secure infrastructure.",
+    "detailedDescription": "Delivering airtight security, 99.99% uptime, and reliable digital operations. CX Technology provides cloud consulting, infrastructure management, automated CI/CD deployment, and ongoing technical support for modern businesses.",
+    "features": [
+      "Cloud Infrastructure Setup (AWS, Google Cloud, Azure)",
+      "Automated CI/CD Pipelines & DevOps Modernization",
+      "Data Backup, Cloud Migration & Zero-Downtime Deployments",
+      "24/7 Technical Maintenance, Security & Monitoring"
+    ],
+    "techStack": [
+      "AWS",
+      "Google Cloud",
+      "Azure",
+      "Kubernetes",
+      "Docker",
+      "GitHub Actions",
+      "Linux",
+      "Nginx"
+    ],
+    "video": "/assets/videos/cloud-infrastructure.mp4",
+    "theme": "cx-sage"
+  }
+]

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html data-wf-page="cx-technology" data-wf-site="cx-technology-site" lang="en">
+<head>
+  {% include "components/head.njk" %}
+</head>
+<body data-barba="wrapper" class="body">
+  {% include "components/preloader.njk" %}
+  <div class="global">
+    <div data-transition-theme="light" class="transition">
+      <div class="loading-icon">
+        <div class="loading-icon__inner"></div>
+      </div>
+    </div>
+    {% include "components/nav.njk" %}
+    {% include "components/cursor.njk" %}
+  </div>
+
+  {{ content | safe }}
+
+  {% include "components/sitemap.njk" %}
+  {% include "components/scripts.njk" %}
+</body>
+</html>

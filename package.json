@@ -1,0 +1,25 @@
+{
+  "name": "cx-technology",
+  "version": "1.0.0",
+  "description": "CX Technology - High-performance Software, Web, and AI Development",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "start": "npx @11ty/eleventy --serve",
+    "dev": "npx @11ty/eleventy --serve --watch"
+  },
+  "keywords": [
+    "cx-technology",
+    "eleventy",
+    "web-development",
+    "ai-development",
+    "software-development"
+  ],
+  "author": "cx technology ",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "ffmpeg-static": "^5.3.0",
+    "sharp": "^0.35.5"
+  }
+}

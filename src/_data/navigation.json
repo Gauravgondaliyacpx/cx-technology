@@ -1,0 +1,96 @@
+{
+  "headerLinks": [
+    {
+      "label": "Web Development",
+      "url": "/showcase#web"
+    },
+    {
+      "label": "Software Development",
+      "url": "/showcase#software"
+    },
+    {
+      "label": "AI / ML Dev",
+      "url": "/showcase#ai",
+      "badge": "HOT"
+    },
+    {
+      "label": "Showcase",
+      "url": "/showcase/"
+    },
+    {
+      "label": "Collection",
+      "url": "/collection/"
+    },
+    {
+      "label": "Plans",
+      "url": "/plans/"
+    }
+  ],
+  "drawerProducts": [
+    {
+      "label": "Website Development",
+      "url": "/showcase#web",
+      "desc": "Modern responsive websites & web applications"
+    },
+    {
+      "label": "Software Development",
+      "url": "/showcase#software",
+      "desc": "Custom enterprise software & cloud SaaS systems"
+    },
+    {
+      "label": "AI / ML Development",
+      "url": "/showcase#ai",
+      "badge": "NEW",
+      "desc": "Intelligent machine learning models & custom AI"
+    },
+    {
+      "label": "The CX Vault",
+      "url": "/product/vault/",
+      "desc": "250+ production software & UI components"
+    },
+    {
+      "label": "Page Transition Course",
+      "url": "/product/page-transition-course/",
+      "desc": "Master Barba.js, GSAP 3 & transitions"
+    },
+    {
+      "label": "CX Builder Community",
+      "url": "/product/community/",
+      "desc": "Network of engineers and builders"
+    }
+  ],
+  "footerLinks": [
+    {
+      "label": "Website Development",
+      "url": "/showcase#web"
+    },
+    {
+      "label": "Software Development",
+      "url": "/showcase#software"
+    },
+    {
+      "label": "AI / ML Development",
+      "url": "/showcase#ai"
+    },
+    {
+      "label": "The Vault",
+      "url": "/product/vault/"
+    },
+    {
+      "label": "Transition Course",
+      "url": "/product/page-transition-course/"
+    },
+    {
+      "label": "Button Pack",
+      "url": "/product/button-pack/"
+    },
+    {
+      "label": "Showcase",
+      "url": "/showcase/"
+    },
+    {
+      "label": "Plans & Pricing",
+      "url": "/plans/"
+    }
+  ]
+}

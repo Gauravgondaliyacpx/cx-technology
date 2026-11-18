@@ -1,0 +1,46 @@
+<style>
+.cx-preloader {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  height: 100svh;
+  z-index: 99999;
+  background-color: #0e110d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+</style>
+<div class="cx-preloader" id="cx-preloader" aria-hidden="true">
+  <div class="cx-preloader__backdrop"></div>
+  <div class="cx-preloader__content">
+    <div class="cx-preloader__top">
+      <span class="cx-preloader__badge">CX / ARCHITECTURE</span>
+      <span class="cx-preloader__status" data-preloader-status>INITIALIZING</span>
+    </div>
+
+    <div class="cx-preloader__logo-wrap">
+      <div class="cx-preloader__logo-glow"></div>
+      <svg class="cx-preloader__logo-svg" viewBox="0 0 187 187" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect class="cx-preloader__frame" x="2" y="2" width="183" height="183" rx="36" stroke="rgba(239, 221, 183, 0.25)" stroke-width="2.5" />
+        <path class="cx-preloader__path-c" d="M70 145C42.4 145 20 122.6 20 93.5C20 64.4 42.4 42 70 42C87.8 42 103.4 51.3 112.1 65.5L95.5 75.8C90.2 67.2 80.8 61.5 70 61.5C52.3 61.5 38 75.8 38 93.5C38 111.2 52.3 125.5 70 125.5C80.8 125.5 90.2 119.8 95.5 111.2L112.1 121.5C103.4 135.7 87.8 145 70 145Z" fill="#EFDDB7" />
+        <path class="cx-preloader__path-x" d="M106 46H128L148 83L168 46H190L160 95L190 144H168L148 107L128 144H106L136 95L106 46Z" fill="#E0A16C" />
+        <circle class="cx-preloader__core" cx="93.5" cy="93.5" r="7" fill="#EFDDB7" />
+      </svg>
+      <div class="cx-preloader__brand">
+        <span class="cx-preloader__brand-title">CX TECHNOLOGY</span>
+        <span class="cx-preloader__brand-sub">SOFTWARE & AI PLATFORM</span>
+      </div>
+    </div>
+
+    <div class="cx-preloader__bottom">
+      <div class="cx-preloader__counter">
+        <span class="cx-preloader__counter-num" data-preloader-counter>0</span><span class="cx-preloader__counter-unit">%</span>
+      </div>
+      <div class="cx-preloader__bar">
+        <div class="cx-preloader__bar-fill" data-preloader-bar></div>
+      </div>
+    </div>
+  </div>
+</div>

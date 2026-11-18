@@ -1,0 +1,517 @@
+ /* =========================================================
+   BASE RESET FOR WIX 980px GRID LOCK (768px to 1250px)
+   ========================================================= */
+ @media screen and (min-width: 768px) and (max-width: 1250px) {
+
+     /* Wix ના બધા જ outer wrappers માંથી negative margin અને 980px lock હટાવવા */
+     #SITE_HEADER,
+     #SITE_HEADER .XKFSfx,
+     #SITE_HEADER [data-mesh-id="SITE_HEADERinlineContent"],
+     #SITE_HEADER [data-mesh-id="SITE_HEADERinlineContent-gridContainer"],
+     #comp-ms3e5ut0,
+     #comp-ms3e5ut0 [data-testid="columns"],
+     #comp-ms3e5uta,
+     #comp-ms3e5uta [data-mesh-id="comp-ms3e5utainlineContent"],
+     #comp-ms3e5uta [data-mesh-id="comp-ms3e5utainlineContent-gridContainer"],
+     #comp-mwem4d61,
+     #comp-mwem4d61 [data-mesh-id="comp-mwem4d61inlineContent"],
+     #comp-mwem47vu,
+     #comp-mwem47vu [data-mesh-id="comp-mwem47vuinlineContent"] {
+         width: 100% !important;
+         max-width: 100vw !important;
+         min-width: 0 !important;
+         left: 0 !important;
+         right: 0 !important;
+         margin-left: 0 !important;
+         margin-right: 0 !important;
+         transform: none !important;
+         box-sizing: border-box !important;
+     }
+
+     /* Grid layout બંધ કરીને clean block/flex કરવા */
+     #SITE_HEADER [data-mesh-id="SITE_HEADERinlineContent-gridContainer"],
+     #comp-ms3e5uta [data-mesh-id="comp-ms3e5utainlineContent-gridContainer"] {
+         display: block !important;
+     }
+
+     /* Top Maroon Bar (બધી સ્ક્રીન પર સરખું રહેશે) */
+     #comp-mwem4d61 [data-mesh-id="comp-mwem4d61inlineContent-gridContainer"] {
+         display: flex !important;
+         flex-direction: row !important;
+         justify-content: space-between !important;
+         align-items: center !important;
+         width: 100% !important;
+         padding: 8px 24px !important;
+         box-sizing: border-box !important;
+     }
+
+     #comp-ms3eka2j,
+     #comp-ms3el5r2 {
+         position: relative !important;
+         inset: auto !important;
+         margin: 0 !important;
+         width: auto !important;
+         min-width: 0 !important;
+         grid-area: unset !important;
+     }
+
+     #comp-ms3eka2j h1,
+     #comp-ms3el5r2 h1 {
+         font-size: 11px !important;
+         white-space: nowrap !important;
+         margin: 0 !important;
+     }
+
+     /* Main Header ના 4 મુખ્ય ભાગોનું Wix Grid Positioning Reset */
+     #comp-msuearef,
+     #comp-ms3e9q12,
+     #comp-ms3ei4rl,
+     #comp-ms3ehdho {
+         position: relative !important;
+         inset: auto !important;
+         margin: 0 !important;
+         grid-area: unset !important;
+         transform: none !important;
+     }
+
+     #comp-msuearef .apPOZK,
+     #comp-msuearef img {
+         width: 100% !important;
+         display: block !important;
+     }
+
+     #comp-ms3e9q12 nav,
+     #comp-ms3e9q12 nav ul {
+         display: flex !important;
+         flex-wrap: nowrap !important;
+         padding: 0 !important;
+         margin: 0 !important;
+         width: auto !important;
+     }
+
+     #comp-ms3e9q12 [data-item-label="true"] {
+         padding: 4px 3px !important;
+     }
+
+     #comp-ms3e9q12 .wixui-horizontal-menu__item-label {
+         white-space: nowrap !important;
+     }
+
+     #comp-ms3ei4rl a,
+     #comp-ms3ehdho a {
+         white-space: nowrap !important;
+         height: auto !important;
+         width: auto !important;
+     }
+
+     #comp-ms3ei4rl .wixui-button__icon svg,
+     #comp-ms3ehdho .wixui-button__icon svg {
+         width: 12px !important;
+         height: 12px !important;
+     }
+ }
+
+ /* =========================================================
+   1. SMALL LAPTOPS (1025px – 1250px): Single Line Layout
+   ========================================================= */
+ @media screen and (min-width: 1025px) and (max-width: 1250px) {
+     #comp-mwem47vu [data-mesh-id="comp-mwem47vuinlineContent-gridContainer"] {
+         display: flex !important;
+         flex-direction: row !important;
+         flex-wrap: nowrap !important;
+         justify-content: space-evenly;
+         align-items: center;
+         padding: 0px 0px !important;
+         gap: 0px !important;
+     }
+
+     #comp-ms3e9q12 {
+         flex: 1 1 auto !important;
+         display: flex !important;
+         justify-content: center !important;
+         width: fit-content;
+         min-width: fit-content;
+         max-width: fit-content;
+     }
+
+     #comp-ms3e9q12 nav ul {
+         gap: 10px !important;
+     }
+
+     #comp-ms3e9q12 .wixui-horizontal-menu__item-label {
+         letter-spacing: 0.3px !important;
+     }
+
+     #comp-ms3ei4rl,
+     #comp-ms3ehdho {
+         flex: 0 0 auto !important;
+         min-width: fit-content;
+         width: fit-content;
+         max-width: fit-content;
+     }
+
+     #comp-ms3ei4rl a,
+     #comp-ms3ehdho a {
+         padding: 8px 5px !important;
+         min-height: 36px !important;
+     }
+
+
+     #comp-ms3ehdho .style-mt3r3ail__root .StylableButton2545352419__icon {
+         width: fit-content !important;
+         max-width: fit-content !important;
+         min-width: fit-content !important;
+     }
+
+ }
+
+ /* =========================================================
+   2. TABLET LANDSCAPE (900px – 1024px): 2-Row Clean Layout
+   ========================================================= */
+ @media screen and (min-width: 900px) and (max-width: 1024px) {
+     #comp-mwem47vu [data-mesh-id="comp-mwem47vuinlineContent-gridContainer"] {
+         display: flex !important;
+         flex-direction: row !important;
+         flex-wrap: wrap !important;
+         justify-content: space-between !important;
+         align-items: center !important;
+         padding: 12px 24px !important;
+         row-gap: 12px !important;
+         column-gap: 10px !important;
+     }
+
+     /* Row 1: Logo Left, Buttons Right */
+     #comp-msuearef {
+         order: 1 !important;
+         width: 165px !important;
+     }
+
+     #comp-ms3ei4rl {
+         order: 2 !important;
+         margin-left: auto !important;
+     }
+
+     #comp-ms3ehdho {
+         order: 3 !important;
+     }
+
+     #comp-ms3ei4rl a,
+     #comp-ms3ehdho a {
+         padding: 8px 5px !important;
+         min-height: 36px !important;
+         width: fit-content !important;
+     }
+
+     #comp-ms3ei4rl .wixui-button__label,
+     #comp-ms3ehdho .wixui-button__label {
+         font-size: 11.5px !important;
+         margin: 0px !important;
+     }
+
+     /* Row 2: Menu Full Width Centered */
+     #comp-ms3e9q12 {
+         order: 4 !important;
+         flex: 1 1 100% !important;
+         width: 100% !important;
+         display: flex !important;
+         justify-content: center !important;
+         border-top: 1px solid rgba(0, 0, 0, 0.08) !important;
+         padding-top: 10px !important;
+     }
+
+     #comp-ms3e9q12 nav ul {
+         gap: 18px !important;
+     }
+
+     #comp-ms3e9q12 .wixui-horizontal-menu__item-label {
+         font-size: 12.5px !important;
+     }
+
+     #comp-ms3ehdho .style-mt3r3ail__root .StylableButton2545352419__icon {
+         width: fit-content !important;
+         max-width: fit-content !important;
+         min-width: fit-content !important;
+         margin: 0px;
+     }
+
+     #comp-ms3ehdho .style-mt3r3ail__root .StylableButton2545352419__container {
+         justify-content: start !important;
+     }
+
+ }
+
+ /* =========================================================
+   3. TABLET PORTRAIT (768px – 899px): Compact 2-Row Layout
+   ========================================================= */
+ @media screen and (min-width: 768px) and (max-width: 899px) {
+     #comp-mwem4d61 [data-mesh-id="comp-mwem4d61inlineContent-gridContainer"] {
+         padding: 6px 16px !important;
+     }
+
+     #comp-ms3eka2j h1,
+     #comp-ms3el5r2 h1 {
+         font-size: 10px !important;
+     }
+
+     #comp-mwem47vu [data-mesh-id="comp-mwem47vuinlineContent-gridContainer"] {
+         display: flex !important;
+         flex-direction: row !important;
+         flex-wrap: wrap !important;
+         justify-content: space-between;
+         align-items: center !important;
+         padding: 10px 16px !important;
+         row-gap: 0px !important;
+         column-gap: 8px !important;
+     }
+
+     /* Row 1: Logo + 2 Buttons */
+     #comp-msuearef {
+         order: 1 !important;
+         width: 145px !important;
+     }
+
+     #comp-ms3ei4rl {
+         order: 2 !important;
+         margin-left: auto !important;
+         margin-right: 0 !important;
+         width: fit-content;
+         max-width: fit-content;
+         min-width: fit-content;
+     }
+
+     #comp-ms3ehdho {
+         order: 2 !important;
+     }
+
+     #comp-ms3ei4rl a,
+     #comp-ms3ehdho a {
+         padding: 7px 10px !important;
+         min-height: 34px !important;
+         width: fit-content !important;
+         max-width: fit-content;
+         min-width: fit-content;
+     }
+
+     #comp-ms3ei4rl .wixui-button__label,
+     #comp-ms3ehdho .wixui-button__label {
+         font-size: 10.5px !important;
+     }
+
+     /* Row 2: Menu Centered */
+     #comp-ms3e9q12 {
+         order: 4 !important;
+         flex: 1 1 100% !important;
+         width: 100% !important;
+         display: flex !important;
+         justify-content: center !important;
+         border-top: 1px solid rgba(0, 0, 0, 0.08) !important;
+         padding-top: 8px !important;
+     }
+
+     #comp-ms3e9q12 nav ul {
+         gap: 10px !important;
+     }
+
+     #comp-ms3e9q12 .wixui-horizontal-menu__item-label {
+         font-size: 11.5px !important;
+     }
+
+     #comp-ms3ehdho .style-mt3r3ail__root .StylableButton2545352419__icon {
+         width: fit-content;
+         max-width: fit-content;
+         min-width: fit-content;
+     }
+
+     #comp-ms3ehdho .style-mt3r3ail__root .StylableButton2545352419__container {
+         justify-content: center;
+         align-items: center !important;
+     }
+ }
+
+ /* hero section */
+
+ @media screen and (min-width: 768px) and (max-width: 1250px) {
+
+     /* 1. Wix ના 980px Grid Lock ને તોડીને સેક્શનને Full Width કરવું */
+     #comp-mwddrt74,
+     #comp-mwddrt74 [data-mesh-id="comp-mwddrt74inlineContent"],
+     #comp-mwddrt74 [data-mesh-id="comp-mwddrt74inlineContent-gridContainer"] {
+         width: 100% !important;
+         max-width: 100vw !important;
+         min-width: 0 !important;
+         left: 0 !important;
+         right: 0 !important;
+         margin-left: 0 !important;
+         margin-right: 0 !important;
+         box-sizing: border-box !important;
+         height: fit-content;
+         min-height: fit-content;
+         max-height: fit-content;
+     }
+
+     /* મુખ્ય સેક્શનને 2-Column Flex (Left Content + Right Image) બનાવવું */
+     #comp-mwddrt74 [data-mesh-id="comp-mwddrt74inlineContent-gridContainer"] {
+         display: flex !important;
+         flex-direction: row !important;
+         flex-wrap: wrap !important;
+         justify-content: space-between !important;
+         align-items: center !important;
+         padding: clamp(32px, 4vw, 56px) clamp(20px, 3.5vw, 48px) !important;
+         gap: clamp(20px, 3vw, 40px) !important;
+         position: relative !important;
+     }
+
+     /* 2. Left Content Box (#comp-mwdejo3k) */
+     #comp-mwdejo3k {
+         position: relative !important;
+         inset: auto !important;
+         margin: 0 !important;
+         grid-area: unset !important;
+         flex: 1 1 52% !important;
+         width: auto !important;
+         max-width: 55% !important;
+         min-width: 0 !important;
+         height: auto !important;
+     }
+
+     #comp-mwdejo3k [data-mesh-id="comp-mwdejo3kinlineContent"],
+     #comp-mwdejo3k [data-mesh-id="comp-mwdejo3kinlineContent-gridContainer"] {
+         display: flex !important;
+         flex-direction: row !important;
+         flex-wrap: wrap !important;
+         align-items: center !important;
+         width: 100% !important;
+         min-width: 0 !important;
+         gap: 14px 12px !important;
+         padding: 0 !important;
+     }
+
+     /* Left Box ની અંદરના બધા એલિમેન્ટ્સનું Wix Grid Reset */
+     #comp-mwdeggye,
+     #comp-mwdegtja,
+     #comp-mwdej6rd,
+     #comp-mwdesuqu,
+     #comp-mwdey1ri,
+     #comp-mwdf0q1o {
+         position: relative !important;
+         inset: auto !important;
+         margin: 0 !important;
+         grid-area: unset !important;
+         transform: none !important;
+     }
+
+     /* Main Heading, Sub-heading અને Paragraph Full Width */
+     #comp-mwdeggye,
+     #comp-mwdegtja,
+     #comp-mwdej6rd,
+     #comp-mwdf0q1o {
+         flex: 1 1 100% !important;
+         width: 100% !important;
+         max-width: 100% !important;
+         height: fit-content;
+         min-height: fit-content;
+     }
+
+     /* Responsive Typography (સ્ક્રીન મુજબ ઓટોમેટિક એડજસ્ટ થશે) */
+     #comp-mwdeggye h2,
+     #comp-mwdeggye h2 span {
+         font-size: clamp(28px, 3.8vw, 48px) !important;
+         line-height: 1.16em !important;
+     }
+
+     #comp-mwdegtja h2,
+     #comp-mwdegtja h2 span {
+         font-size: clamp(13px, 1.35vw, 16px) !important;
+         line-height: 1.4em !important;
+     }
+
+     #comp-mwdej6rd p,
+     #comp-mwdej6rd p span {
+         font-size: clamp(14px, 1.5vw, 18px) !important;
+         line-height: 1.6em !important;
+     }
+
+     #comp-mwdf0q1o p,
+     #comp-mwdf0q1o p span {
+         font-size: clamp(11px, 1.15vw, 14px) !important;
+         margin-top: 6px !important;
+     }
+
+     #comp-mwdesuqu,
+     #comp-mwdey1ri {
+         flex: 0 0 auto !important;
+         width: auto !important;
+         min-width: max-content !important;
+         max-width: none !important;
+         height: auto !important;
+         margin-top: 6px !important;
+     }
+
+     #comp-mwdesuqu button,
+     #comp-mwdey1ri button {
+         width: auto !important;
+         min-width: max-content !important;
+         height: auto !important;
+         min-height: 42px !important;
+         padding: 10px 16px !important;
+     }
+
+     #comp-mwdesuqu .wixui-button__label,
+     #comp-mwdey1ri .wixui-button__label {
+         font-size: clamp(10.5px, 1vw, 12px) !important;
+         letter-spacing: 0.08em !important;
+         white-space: nowrap !important;
+     }
+
+     /* 4. Right Image (#comp-mwddyahp) */
+     #comp-mwddyahp {
+         position: relative !important;
+         inset: auto !important;
+         margin: 0 !important;
+         grid-area: unset !important;
+         flex: 1 1 40% !important;
+         width: auto !important;
+         max-width: 42% !important;
+         height: auto !important;
+     }
+
+     #comp-mwddyahp .BprtEa,
+     #comp-mwddyahp img {
+         width: 100% !important;
+         height: auto !important;
+         max-height: 580px !important;
+         object-fit: cover !important;
+         border-radius: 10px !important;
+         display: block !important;
+     }
+
+     /* 5. ગોળ બેજ (Circular Badge Iframe - #comp-mwdf66bz) */
+     #comp-mwdf66bz {
+         position: absolute !important;
+         top: clamp(16px, 2.5vw, 32px) !important;
+         right: clamp(35%, 38vw, 39%) !important;
+         left: auto !important;
+         margin: 0 !important;
+         grid-area: unset !important;
+         width: clamp(90px, 10vw, 125px) !important;
+         height: clamp(90px, 10vw, 125px) !important;
+         z-index: 5 !important;
+     }
+
+     /* 6. Bottom Text ("The Woodlands, Texas...") (#comp-mwde2i4t) */
+     #comp-mwde2i4t {
+         position: relative !important;
+         inset: auto !important;
+         margin: 0px 0 0 0 !important;
+         grid-area: unset !important;
+         /* flex: 1 1 10% !important; */
+         /* width: 100% !important; */
+         text-align: right;
+     }
+
+     #comp-mwde2i4t h2,
+     #comp-mwde2i4t h2 span {
+         font-size: clamp(12px, 1.2vw, 14px) !important;
+         text-align: right;
+     }
+ }

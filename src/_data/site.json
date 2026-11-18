@@ -1,0 +1,38 @@
+{
+  "name": "CX Technology",
+  "legalName": "CX Technology",
+  "tagline": "Website Development, Software Development & AI/ML Development in Rajkot, Gujarat",
+  "description": "CX Technology is a premier technology company based in Rajkot, Gujarat specializing in custom Website Development, scalable Software Development, and advanced AI & Machine Learning solutions.",
+  "url": "https://cxtechnology.dev",
+  "email": "cx@gmail.com",
+  "address": "Rajkot, Gujarat, India",
+  "city": "Rajkot",
+  "state": "Gujarat",
+  "country": "India",
+  "author": "CX Technology",
+  "creator": {
+    "name": "CX Technology",
+    "role": "Software, Web & AI/ML Development Company",
+    "bio": "CX Technology is a Rajkot, Gujarat based innovation powerhouse delivering mission-critical enterprise software, cutting-edge websites, and intelligent AI & ML solutions.",
+    "website": "https://cxtechnology.dev",
+    "email": "cx@gmail.com",
+    "location": "Rajkot, Gujarat, India",
+    "github": "https://github.com/cxtechnology",
+    "linkedin": "https://www.linkedin.com/company/cxtechnology/",
+    "twitter": "https://twitter.com/cxtechnology"
+  },
+  "year": 2026,
+  "services": [
+    "Website Development",
+    "Software Development",
+    "AI / ML Development"
+  ],
+  "colors": {
+    "saybrookSage": "#B1B6A2",
+    "softPumpkin": "#E0A16C",
+    "goldenStraw": "#EFDDB7",
+    "textOnGoldenStraw": "#1A1915",
+    "textOnSage": "#151813",
+    "textOnPumpkin": "#18120C"
+  }
+}

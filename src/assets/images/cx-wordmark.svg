@@ -1,0 +1,12 @@
+<svg data-cx-uid="cx-5" xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 540 156" fill="none" class="nav-logo__wordmark-svg">
+  <g fill="currentColor">
+    <!-- C -->
+    <path d="M78 156C34.9 156 0 121.1 0 78C0 34.9 34.9 0 78 0C106.2 0 130.8 14.8 144.6 37.2L116.8 55.4C108.5 42.6 94.2 34 78 34C53.7 34 34 53.7 34 78C34 102.3 53.7 122 78 122C94.2 122 108.5 113.4 116.8 100.6L144.6 118.8C130.8 141.2 106.2 156 78 156Z"/>
+    <!-- X -->
+    <path d="M156 6H194L228 66L262 6H300L250 80L304 150H266L228 94L190 150H152L206 80L156 6Z"/>
+    <!-- TECHNOLOGY -->
+    <text x="325" y="60" font-family="'Haffer VF', sans-serif" font-weight="900" font-size="34" letter-spacing="4" fill="currentColor">TECH</text>
+    <text x="325" y="105" font-family="'Haffer VF', sans-serif" font-weight="500" font-size="28" letter-spacing="3" fill="currentColor">NOLOGY</text>
+    <rect x="325" y="122" width="180" height="5" rx="2.5" fill="var(--color-cx-primary, #E0A16C)" />
+  </g>
+</svg>
